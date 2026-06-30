@@ -17,12 +17,13 @@ export const CONFIG = {
   // Firebase 웹앱 설정
   //   https://console.firebase.google.com → 프로젝트 설정 → 내 앱 → 웹앱(</>)
   firebase: {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
+  apiKey: "AIzaSyBy5vjPJv6k75KnuvnmQvLA2w4XfHWk9zY",
+  authDomain: "matzip-477d7.firebaseapp.com",
+  projectId: "matzip-477d7",
+  storageBucket: "matzip-477d7.firebasestorage.app",
+  messagingSenderId: "1077624750539",
+  appId: "1:1077624750539:web:efac345e59cca3ace7364e",
+  measurementId: "G-W2CZZ9DHTJ"
   },
 };
 
