@@ -12,7 +12,7 @@ export const CONFIG = {
   // 카카오 JavaScript 키
   //   https://developers.kakao.com → 내 애플리케이션 → 앱 키 → "JavaScript 키"
   //   앱 설정 → 플랫폼 → Web → 사이트 도메인에 배포 주소를 등록해야 합니다.
-  kakaoJsKey: "",
+  kakaoJsKey: "cbd23cc58b1415e1d2f963eee4d76d99",
 
   // Firebase 웹앱 설정
   //   https://console.firebase.google.com → 프로젝트 설정 → 내 앱 → 웹앱(</>)
