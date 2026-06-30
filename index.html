@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>뚝섬역 맛집 리스트 | Matzip</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">🚇 2호선 뚝섬역 · 성수동</p>
+      <h1>뚝섬역 맛집 리스트</h1>
+      <p class="subtitle">걸어서 갈 수 있는 동네 맛집을 모았어요</p>
+      <div class="search-wrap">
+        <input type="search" id="search" placeholder="가게 이름 · 메뉴 검색" aria-label="검색" />
+      </div>
+    </div>
+  </header>
+
+  <nav class="filters" id="filters" aria-label="카테고리 필터">
+    <button class="chip active" data-cat="all">전체</button>
+    <button class="chip" data-cat="한식">한식</button>
+    <button class="chip" data-cat="양식">양식</button>
+    <button class="chip" data-cat="일식">일식</button>
+    <button class="chip" data-cat="카페">카페</button>
+    <button class="chip" data-cat="술집">술집</button>
+  </nav>
+
+  <main class="container">
+    <p class="count" id="count"></p>
+    <ul class="grid" id="grid"></ul>
+    <p class="empty" id="empty" hidden>조건에 맞는 맛집이 없어요 🥲</p>
+  </main>
+
+  <footer class="footer">
+    <p>※ 샘플 데이터로 만든 데모 사이트입니다. · Matzip</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
